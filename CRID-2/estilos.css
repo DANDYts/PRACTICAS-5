@@ -30,7 +30,7 @@ div{
   .box3{
     background: mediumturquoise;
     height: 80px;
-    width: 140px;
+    width: 290px;
     position: absolute;
     left: 439px;
     top: 143px;
@@ -39,11 +39,11 @@ div{
   }
   .sidebar{
     background: aquamarine;
-    height: 307px;
+    height: 180px;
     width: 110px;
     position: absolute;
     left:620px;
-    top: 143px;
+    top: 268px;
     border: 3px solid black;
     padding: 10px;
   }

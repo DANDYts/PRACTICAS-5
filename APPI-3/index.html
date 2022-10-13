@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API-3</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <center>
+      <h1>CONSUMIR API</h1>
+      ALBUM:
+      <select name="album" id="album">
+        <script>
+            for (var i = 1; i < 100; i++) {
+                document.write('<option value="' + i + '">' + i + '</option>');
+                
+            }
+        </script>
+      </select><br>
+      <button onclick="verFotos()">VER FOTOS</button>
+      <button onclick="cleaar()">BORRAR</button>
+      <div id="Resultado"></div>
+    </center>
+    <script src="app.js"></script>
+  </body>
+</html>
