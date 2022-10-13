@@ -1,0 +1,60 @@
+body{
+  background: lightslategray;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .header{
+    background: magenta;
+    height: 30px;
+    width: 240px;
+  }
+  .img{
+    background: orangered;
+    height: 80px;
+    width: 240px;
+  }
+  .sidebar{
+    background: lightseagreen;
+    height: 220px;
+    width: 60px;
+  }
+  .main{
+    background: lightskyblue;
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    left: 60px;
+    top: 110px;
+  }
+  .banner{
+    background: goldenrod;
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    left: 60px;
+    top: 210px;
+  }
+  .rare{
+    background: yellow;
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 60px;
+    top: 270px; 
+  }
+  .img2{
+    background: mediumpurple;
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    left: 170px;
+    top: 270px;  
+  } 
+  .footer{
+    background: aqua;
+    height: 30px;
+    width: 240px;
+    position: absolute;
+    top: 330px;
+  }

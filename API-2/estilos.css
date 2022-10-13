@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(78, 74, 163);
+    background: linear-gradient(
+      90deg,
+      rgb(180, 202, 54) 0%,
+      rgb(92, 95, 194) 35%,
+      rgb(190, 157, 48) 100%
+    );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #Resultado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(200px, auto);
+    gap: 15px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .cajita {
+    width: 400px;
+    height: auto;
+    background: rgb(235, 34, 34);
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: justify;
+  }
+  
+  .cajita:hover {
+    transform: scale(1.01);
+    border: 2px solid white;
+  }
+  
+  span {
+    color: rgb(63, 63, 180);
+    text-shadow: 0 0 5px black;
+  }
+  
+  h1 {
+    color: aquamarine;
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  button {
+    background: rgb(99, 97, 97);
+    color: yellow;
+    padding: 15px;
+  }
+  
+  button:hover {
+    border: 2px solid yellow;
+    transform: scale();
+  }
+  
+  p {
+    color: rgb(55, 197, 97);
+  }
+  
+  b {
+    color: skyblue;
+  }
+  
+  .user {
+    background: rgb(12, 12, 12);
+    border-radius: 20px;
+    padding: 20px;
+  }
